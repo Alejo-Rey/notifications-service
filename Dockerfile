@@ -7,5 +7,5 @@ RUN bundle install
 
 COPY . .
 
-EXPOSE 3002
+EXPOSE 3003
 CMD ["ruby", "app.rb", "-o", "0.0.0.0"]
